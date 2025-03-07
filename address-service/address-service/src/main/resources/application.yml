@@ -1,0 +1,23 @@
+server:
+  port: 8000
+ 
+spring:
+    application:
+      name: address-service
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://db-mysql-lon1-05422-do-user-18091891-0.m.db.ondigitalocean.com:25060/address_service
+        username: "user_service"
+        password: "AVNS_S481zM7WadAbmLWkkTF"
+        hikari:
+            initialization-fail-timeout: 0  
+    sql:
+        int:
+          platform: mysql
+          mode: always        
+    jpa:
+        databasePlatform: "org.hibernate.dialect.MySQLDialect"
+        generate-ddl: true
+        show-sql: true
+        hibernate:
+            ddl-auto: update
