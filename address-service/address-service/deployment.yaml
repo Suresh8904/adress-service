@@ -35,7 +35,7 @@ spec:
             - name: MY_ENCRYPTION_KEY
               valueFrom:
                 configMapKeyRef:
-                  name: my-secrete-config
+                  name: my-services-secret
                   key: MY_ENCRYPTION_KEY
       imagePullSecrets:
-        - name: mycred
+        - name: eshopdockercred
