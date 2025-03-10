@@ -6,9 +6,9 @@ spring:
       name: address-service
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://db-mysql-lon1-05422-do-user-18091891-0.m.db.ondigitalocean.com:25060/address_service
-        username: "user_service"
-        password: "AVNS_S481zM7WadAbmLWkkTF"
+        url: jdbc:mysql://db-mysql-lon1-75379-do-user-19481328-0.d.db.ondigitalocean.com:25060/address-service
+        username: "address-service"
+        password: "AVNS_lSEEGO06XE8vLKQ9BpJ"
         hikari:
             initialization-fail-timeout: 0  
     sql:
